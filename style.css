@@ -17,6 +17,7 @@ body ul {
 .nav li {
     font-size: 14px;
     display: inline-block;
+    width:178px;
     background-color: #FFF;
     padding:8px 8px;
     border:1px solid #000;
@@ -32,4 +33,38 @@ body ul {
 .nav li a:hover {
     color:#66cccc;
     text-decoration:underline;
+}
+.content-left{
+  width:650px;
+  border:1px solid #000;
+  margin-top: 20px;
+  padding-left: 15px;
+}
+.content-left ul {
+   padding-left: 0;
+}
+.content-left li {
+  display: inline-block;
+  padding: 10px 0 0 0;
+}
+.content-text {
+  float:right;
+  padding-left: 15px;
+  width:514px;
+  margin-top: -5px;
+}
+.content-text h3 {
+  margin:0;
+}
+.content-text p {
+  margin-top:5px;
+}
+.content-right {
+  width:300px;
+  border:1px solid #000;
+  margin-top: 20px;
+  padding-left: 15px;
+}
+footer {
+  text-align: center;
 }
